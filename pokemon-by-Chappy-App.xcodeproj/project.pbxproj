@@ -35,6 +35,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		376B10631C34654400936B78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		376B10641C34655C00936B78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		376B10651C34657900936B78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		37B429CA1C34650F0080D42F = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +75,9 @@
 		37B429D51C3465100080D42F /* pokemon-by-Chappy-App */ = {
 			isa = PBXGroup;
 			children = (
+				376B10631C34654400936B78 /* Model */,
+				376B10641C34655C00936B78 /* View */,
+				376B10651C34657900936B78 /* Controller */,
 				37B429D61C3465100080D42F /* AppDelegate.swift */,
 				37B429D81C3465100080D42F /* ViewController.swift */,
 				37B429DA1C3465100080D42F /* Main.storyboard */,
@@ -286,6 +310,7 @@
 				37B429E71C3465100080D42F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
