@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37B429D71C3465100080D42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B429D61C3465100080D42F /* AppDelegate.swift */; };
+		37B429D91C3465100080D42F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B429D81C3465100080D42F /* ViewController.swift */; };
+		37B429DC1C3465100080D42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B429DA1C3465100080D42F /* Main.storyboard */; };
+		37B429DE1C3465100080D42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B429DD1C3465100080D42F /* Assets.xcassets */; };
+		37B429E11C3465100080D42F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B429DF1C3465100080D42F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37B429D31C34650F0080D42F /* pokemon-by-Chappy-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokemon-by-Chappy-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B429D61C3465100080D42F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37B429D81C3465100080D42F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37B429DB1C3465100080D42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37B429DD1C3465100080D42F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37B429E01C3465100080D42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37B429E21C3465100080D42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37B429D01C34650F0080D42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37B429CA1C34650F0080D42F = {
+			isa = PBXGroup;
+			children = (
+				37B429D51C3465100080D42F /* pokemon-by-Chappy-App */,
+				37B429D41C34650F0080D42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37B429D41C34650F0080D42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37B429D31C34650F0080D42F /* pokemon-by-Chappy-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37B429D51C3465100080D42F /* pokemon-by-Chappy-App */ = {
+			isa = PBXGroup;
+			children = (
+				37B429D61C3465100080D42F /* AppDelegate.swift */,
+				37B429D81C3465100080D42F /* ViewController.swift */,
+				37B429DA1C3465100080D42F /* Main.storyboard */,
+				37B429DD1C3465100080D42F /* Assets.xcassets */,
+				37B429DF1C3465100080D42F /* LaunchScreen.storyboard */,
+				37B429E21C3465100080D42F /* Info.plist */,
+			);
+			path = "pokemon-by-Chappy-App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37B429D21C34650F0080D42F /* pokemon-by-Chappy-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B429E51C3465100080D42F /* Build configuration list for PBXNativeTarget "pokemon-by-Chappy-App" */;
+			buildPhases = (
+				37B429CF1C34650F0080D42F /* Sources */,
+				37B429D01C34650F0080D42F /* Frameworks */,
+				37B429D11C34650F0080D42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pokemon-by-Chappy-App";
+			productName = "pokemon-by-Chappy-App";
+			productReference = 37B429D31C34650F0080D42F /* pokemon-by-Chappy-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37B429CB1C34650F0080D42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chappy-App";
+				TargetAttributes = {
+					37B429D21C34650F0080D42F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 37B429CE1C34650F0080D42F /* Build configuration list for PBXProject "pokemon-by-Chappy-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37B429CA1C34650F0080D42F;
+			productRefGroup = 37B429D41C34650F0080D42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37B429D21C34650F0080D42F /* pokemon-by-Chappy-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37B429D11C34650F0080D42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B429E11C3465100080D42F /* LaunchScreen.storyboard in Resources */,
+				37B429DE1C3465100080D42F /* Assets.xcassets in Resources */,
+				37B429DC1C3465100080D42F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37B429CF1C34650F0080D42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B429D91C3465100080D42F /* ViewController.swift in Sources */,
+				37B429D71C3465100080D42F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37B429DA1C3465100080D42F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B429DB1C3465100080D42F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37B429DF1C3465100080D42F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B429E01C3465100080D42F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37B429E31C3465100080D42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37B429E41C3465100080D42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37B429E61C3465100080D42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pokemon-by-Chappy-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Chappy-App.pokemon-by-Chappy-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37B429E71C3465100080D42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pokemon-by-Chappy-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Chappy-App.pokemon-by-Chappy-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37B429CE1C34650F0080D42F /* Build configuration list for PBXProject "pokemon-by-Chappy-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B429E31C3465100080D42F /* Debug */,
+				37B429E41C3465100080D42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B429E51C3465100080D42F /* Build configuration list for PBXNativeTarget "pokemon-by-Chappy-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B429E61C3465100080D42F /* Debug */,
+				37B429E71C3465100080D42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37B429CB1C34650F0080D42F /* Project object */;
+}
